@@ -1,0 +1,14 @@
+function setup() {
+    createCanvas(500,500);
+    background(180);
+}
+function draw() {
+ellipse(mouseX,mouseY,50,50);
+if((mouseX<50)&&(mouseY<50)){
+     fill(color("white"));
+}else if((mouseX>50)&&(mouseY<50)){
+fill(color("red")); 
+}
+  
+
+}
